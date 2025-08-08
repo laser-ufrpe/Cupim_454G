@@ -4,9 +4,20 @@ Repositório dedicado à equipe de Robótica **Cupim** da UFRPE, contendo arquiv
 
 ## ​ Estrutura do Projeto
 
-- `Chassis/` – Arquivos STL relacionados ao chassi do robô (rodas, armas, suportes etc.).
+- `Chassis/` – Arquivos .svg relacionados a o chassi do robô.
 - `STLs(Rodas, Armas, Suportes)/` – Modelos 3D adicionais para componentes mecânicos.
 - `Controles/` – Conexões dos controles com o robô.
+
+.
+├── Chassis
+│   └── CupimGirador.svg
+├── Controles
+│   ├── ControleCupimRedeVespa.ino
+│   └── ControleViaBluetooth.ino
+├── README.md
+└── STLs(Rodas, Armas, Suportes)
+    └── Roda Cupim 2ring.stl
+
 
 ##  Sobre
 
@@ -21,3 +32,4 @@ Contribuições são bem-vindas! Você pode ajudar ao:
 - Documentar os procedimentos de montagem e uso.
 
 Por favor, use **issues** para reportar bugs ou sugerir melhorias e **pull requests** para contribuições.
+
